@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Jersey 15', sans-serif;
+}
+
+html {
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #121315;
+    color: #d4e4e4;;
+    padding: 25px 0;
+}
+
+.navbar ul {
+    font-size: 2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #d4e4e4;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #7e8686;
+}
+
+.container {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.section {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #121315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title {
+    text-align: center;
+    font-size: 6em;
+    font-weight: 400;
+    color: #d4e4e4;
+    text-shadow:0 0 250px #e3ebeb;
+}
+
+button {
+    background-color: #bcc4c4;
+    padding: 10px 20px;
+    margin: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #7e8686;
+}
+
+#title3 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    color: #d4e4e4;
+}
+
+#quote {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    color: #d4e4e4;
+}
+
+p {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    color: #d4e4e4;
+}
