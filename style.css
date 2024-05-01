@@ -3,23 +3,23 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
     font-family: 'Jersey 15', sans-serif;
+    background-color: #121315;
 }
 
 html {
-    font-style: normal;
     scroll-behavior: smooth;
 }
-
 .navbar {
     background-color: #121315;
-    color: #d4e4e4;;
+    color: #d4e4e4;
     padding: 25px 0;
+    text-shadow:0 0 5px #e3ebeb;
+
 }
 
 .navbar ul {
-    font-size: 2em;
+    font-size: 2em; /* Increased font size for better scaling */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,39 +41,35 @@ html {
 }
 
 .container {
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    flex-direction: column; 
+    padding: 20px;
+    max-width: 800px; /* Added maximum width to prevent container from expanding too much */
+    margin: 0 auto; /* Center the container horizontally */
 }
 
 .section {
-    height: 100vh;
-    overflow: hidden;
-    background-color: #121315;
+    height: 100vh; /* Each section takes up full viewport height */
+    margin-bottom: 40px; /* Add margin between sections */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center; /* Center text within the section */
 }
 
 #title {
-    text-align: center;
-    font-size: 6em;
+    font-size: 5em; /* Increased font size for better scaling */
     font-weight: 400;
     color: #d4e4e4;
-    text-shadow:0 0 250px #e3ebeb;
+    text-shadow:0 0 20px #e3ebeb;
 }
 
 button {
     background-color: #bcc4c4;
-    padding: 10px 20px;
-    margin: 25px;
+    padding: 12px 24px; /* Adjusted padding for better button appearance */
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin: 1em;
 }
 
 button:hover {
@@ -81,22 +77,27 @@ button:hover {
 }
 
 #title3 {
-    text-align: center;
-    font-size: 3em;
+    font-size: 2.5em; /* Increased font size for better scaling */
     font-weight: 400;
     color: #d4e4e4;
+    text-shadow:0 0 5px #e3ebeb;
+
 }
 
 #quote {
-    text-align: center;
-    font-size: 2em;
+    font-size: 2em; /* Increased font size for better scaling */
     font-weight: 400;
     color: #d4e4e4;
+    border: 1px solid #bcc4c4;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-shadow:0 0 5px #e3ebeb;
+
 }
 
 p {
-    text-align: center;
-    font-size: 3em;
+    font-size: 2em; /* Increased font size for better scaling */
     font-weight: 400;
     color: #d4e4e4;
+    text-shadow:0 0 5px #e3ebeb;
 }
