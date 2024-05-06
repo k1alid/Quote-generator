@@ -42,18 +42,18 @@ html {
 
 .container {
     padding: 20px;
-    max-width: 800px; /* Added maximum width to prevent container from expanding too much */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .section {
-    height: 100vh; /* Each section takes up full viewport height */
-    margin-bottom: 40px; /* Add margin between sections */
+    height: 100vh; 
+    margin-bottom: 40px; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center; /* Center text within the section */
+    text-align: center; 
 }
 
 #title {
